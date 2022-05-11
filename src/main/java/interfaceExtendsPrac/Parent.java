@@ -7,7 +7,9 @@ public class Parent extends Human implements Runnable, Walkable{
 
     @Override
     public void run(int x, int y) {
+
         this.getLoc();
+
         System.out.println("현재 속도는 " + (velocity+2));
         this.x = x;
         this.y = y;
@@ -16,7 +18,9 @@ public class Parent extends Human implements Runnable, Walkable{
 
     @Override
     public void walk(int x, int y) {
+
         this.getLoc();
+
         System.out.println("현재 속도는 " + this.velocity);
         this.x = x;
         this.y = y;

@@ -19,6 +19,7 @@ public class Human {
     }
 
     public void getLoc(){
+
         System.out.println("현재 위치는 " + x + ", " + y + "입니다.");
     }
 
